@@ -22,25 +22,14 @@ int num1 = int.Parse(Console.ReadLine());
 Console.Write("Please enter 2nd number: ");
 int num2 = int.Parse(Console.ReadLine());
 
-int add(int num1, int num2)
-{
-    return num1 + num2;
-}
+int add(int num1, int num2) => num1 + num2;
 
-int subtract(int num1, int num2)
-{
-    return num1 - num2;
-}
+int subtract(int num1, int num2) => num1 - num2;
 
-int multiply(int num1, int num2)
-{
-    return num1 * num2;
-}
+int multiply(int num1, int num2) => num1 * num2;
 
-int divide(int num1, int num2)
-{
-    return num1 / num2;
-}
+int divide(int num1, int num2) => num1 / num2;
+
 
 Console.WriteLine("Please type option, 'add', 'subtract', 'multiply', or 'divide': ");
 
